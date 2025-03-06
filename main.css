@@ -7,12 +7,13 @@
         }
     
     body{
-    background-color: lightsteelblue;
+    background-color: #FEE9E9;
     font-family: 'Roslindale';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 3rem, 80ch);
+    /* where to change width of columns on desktop view below */
+    width: min(100% - 3rem, 100ch);
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -28,24 +29,31 @@ grid-template-areas:
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
+
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: #1E0C0C;
+    height:300px;
 }
 
-/* variable font animation */
+/* font styling area */
+h2{
+    color: #1E0C0C;
+    font-variation-settings: "opsz" 10, "wdth" 200, "wght" 500, "slnt" -8;
+}
+
 h3{
     font-weight:20; 
     text-align: center;
@@ -86,4 +94,3 @@ h3{
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
-

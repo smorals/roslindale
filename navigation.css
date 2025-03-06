@@ -6,9 +6,13 @@
     margin: 0;
   }
   
+  h1{
+    color: #FEE9E9;
+  }
+  
   header {
     /* where to set the color of the nav bar */
-      background: lightgray;
+      background: #1E0C0C;
       text-align: center;
       top:0px;
       position: fixed;
@@ -23,10 +27,10 @@
   nav {
       position: absolute;
       text-align: left;
-      padding-top:10px;
+      padding-top:20px;
       top: 100%;
       left: 0;
-      background: gray;
+      background: #1E0C0C;
       width: 100%;
       transform: scale(1,0);
       transform-origin: top;
@@ -45,7 +49,7 @@
   }
   
   nav a {
-      color: black;
+      color: #EA2D63;
       text-decoration: none;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -54,7 +58,7 @@
   }
   /* where to change the font color of the nav bar pop-up */
   nav a:hover {
-      color: orange;
+      color: #FEE9E9;
   }
   
   .nav-checkbox:checked ~ nav {
@@ -81,7 +85,7 @@
   
           display: block;
           /* color of the hamburger menu */
-          background: black;
+          background: #FEE9E9;
           /* how far the hamburger menu is from the top */
           margin-top:7px;
           height: 3px;
@@ -143,8 +147,8 @@
     nav a::before {
       content: '';
       display: block;
-      height: 3px;
-      background: black;
+      height: 1.5px;
+      background: #EA2D63;
       position: absolute;
       top: 1.1em;
       left: 0;
@@ -157,5 +161,3 @@
       transform: scale(1,1);
     }
   }
-  
-  
