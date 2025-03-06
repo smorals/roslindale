@@ -1,14 +1,14 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff");
-        font-family: 'Forma';
+    src: url("fonts/RoslindaleVariable[opsz\,slnt\,wdth\,wght]-Edu.woff2") format("woff2"),
+         url('fonts/RoslindaleVariable[opsz\,slnt\,wdth\,wght]-Edu.woff') format("woff");
+        font-family: 'Roslindale';
         font-style: normal;
         font-weight: normal;
         }
     
     body{
     background-color: lightsteelblue;
-    font-family: 'Forma';
+    font-family: 'Roslindale';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -55,9 +55,9 @@ h3{
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 10, "wdth" 75, "wght" 200, "slnt" -8;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "opsz" 48, "wdth" 200, "wght" 900, "slnt" 0;
     }
     
 }
