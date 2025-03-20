@@ -52,6 +52,7 @@ footer{
 h2{
     color: #1E0C0C;
     font-variation-settings: "opsz" 10, "wdth" 200, "wght" 500, "slnt" -8;
+    font-size: 40pt;
 }
 
 h3{
@@ -61,14 +62,65 @@ h3{
     animation: weightChange 7s infinite;
 }
 
+h4{
+    font-size: 25pt;
+    text-align:center;
+}
+
 @keyframes weightChange {
     0%, 100%{
         font-variation-settings: "opsz" 10, "wdth" 75, "wght" 200, "slnt" -8;
     }
     50%{font-variation-settings: "opsz" 48, "wdth" 200, "wght" 900, "slnt" 0;
-    }
-    
+    } 
 }
+
+/* animations for variations section */
+.weight{
+    animation: weightvariation 7s infinite;
+}
+@keyframes weightvariation {
+    0%, 100%{
+        font-variation-settings: "opsz" 20, "wdth" 75, "wght" 200, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 20, "wdth" 75, "wght" 900, "slnt" 0;
+    } 
+}
+
+.slant{
+    animation: slantvariation 7s infinite;
+}
+@keyframes slantvariation {
+    0%, 100%{
+        font-variation-settings: "opsz" 40, "wdth" 180, "wght" 200, "slnt" -8;
+    }
+    50%{font-variation-settings: "opsz" 40, "wdth" 180, "wght" 200, "slnt" 0;
+    } 
+}
+
+.optical-size{
+    animation: optsizevariation 7s infinite;
+}
+@keyframes optsizevariation {
+    0%, 100%{
+        font-variation-settings: "opsz" 10, "wdth" 100, "wght" 500, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 48, "wdth" 100, "wght" 500, "slnt" 0;
+    } 
+}
+
+.width{
+    animation: widthvariation 5s infinite;
+}
+@keyframes widthvariation {
+    0%, 100%{
+        font-variation-settings: "opsz" 25, "wdth" 75, "wght" 300, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 25, "wdth" 200, "wght" 300, "slnt" 0;
+    } 
+}
+
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
