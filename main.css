@@ -46,6 +46,25 @@ grid-area: a;
 footer{
     background-color: #1E0C0C;
     height:300px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "h v"
+        "a a";
+}
+
+.DJR {
+    grid-area: h;
+}
+
+.Smorin {
+    grid-area: v;
+}
+
+.Umass {
+    grid-area: a;
 }
 
 /* font styling area */
@@ -64,6 +83,12 @@ h3{
 
 h4{
     font-size: 25pt;
+    text-align:center;
+}
+
+h5{
+    font-size: 12pt;
+    color:#FEE9E9;
     text-align:center;
 }
 
@@ -146,3 +171,19 @@ h4{
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
+
+a:link {
+    color: #FFC0C1;
+  }
+
+  a:visited {
+    color: #962176;
+  }
+  
+  a:hover {
+    color: #962176;
+  }
+  
+  a:active {
+    color: #FEE9E9;
+  }
