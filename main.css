@@ -25,20 +25,24 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "h v"
-    "a a";
+    "h f";
+}
+
+
+.hero {
+  background-image: url('images/morin_2025_velvet-flowers2.png');
+  background-size: cover;
+  height: 700px;
+  margin-top: -50px;
 }
 
 #history {
 grid-area: h;
+padding-left: 50px;
 }
 
-#variations{
-grid-area: v;
-}
-
-#alphabet {
-grid-area: a;
+#flowers {
+    grid-area: f;
 }
 }
 
