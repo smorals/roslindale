@@ -53,13 +53,21 @@ padding-top: 50px;
 }
 
 #variations {
-    background-color: #1E0C0C;
+    background-color: #962176;
     align-content: center;
     color: #FEE9E9;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 90px;
 }
+
+#alphabet {
+    align-content: center;
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 40px;
+}
+
 
 
 
@@ -209,3 +217,8 @@ a:link {
   a:active {
     color: #FEE9E9;
   }
+
+
+.extralt {
+    font-weight:200 !important;
+}
