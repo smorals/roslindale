@@ -26,6 +26,8 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h f";
+padding-top: 20px;
+padding-bottom: 120px;
 }
 
 
@@ -34,29 +36,45 @@ grid-template-areas:
   background-size: cover;
   height: 700px;
   margin-top: -50px;
+  color: #FEE9E9;
+  padding: 70px;
 }
 
 #history {
 grid-area: h;
 padding-left: 50px;
+padding-top: 50px;
 }
 
 #flowers {
     grid-area: f;
+    align-content: right;
+    align-content: center;
 }
+
+#variations {
+    background-color: #1E0C0C;
+    align-content: center;
+    color: #FEE9E9;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 90px;
 }
+
+
 
 /* CSS for the footer */
 footer{
     background-color: #1E0C0C;
     height:300px;
     display: grid;
-    grid-gap: 25px;
+    grid-gap: 1px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
         "h v"
         "a a";
+    padding-top: 25px;
 }
 
 .DJR {
@@ -73,7 +91,6 @@ footer{
 
 /* font styling area */
 h2{
-    color: #1E0C0C;
     font-variation-settings: "opsz" 10, "wdth" 200, "wght" 500, "slnt" -8;
     font-size: 40pt;
 }
@@ -81,13 +98,14 @@ h2{
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     animation: weightChange 7s infinite;
 }
 
 h4{
     font-size: 25pt;
     text-align:center;
+    margin: 10px;
 }
 
 h5{
