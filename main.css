@@ -58,18 +58,45 @@ padding-top: 50px;
     align-content: center;
     color: #FEE9E9;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 90px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 #alphabet {
     align-content: center;
     text-align: center;
-    padding-bottom: 90px;
-    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-top: 30px;
+
+    .extralt {
+        font-weight:200 !important;
+    }
+    
+    .extraltit {
+        font-weight:200 !important;
+    }
+    
+    .lt {
+        font-weight:200 !important;
+    }
+    
+    .ltit {
+        font-weight: ;
+    }
+    
+    .reg {
+        font-weight: ;
+    }
 }
 
-
+#download {
+    background-color: #53003C;
+    align-content: center;
+    text-align: center;
+    color: #FEE9E9;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
 
 
 /* CSS for the footer */
@@ -218,8 +245,3 @@ a:link {
   a:active {
     color: #FEE9E9;
   }
-
-
-.extralt {
-    font-weight:200 !important;
-}
